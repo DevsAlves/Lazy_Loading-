@@ -1,5 +1,5 @@
-# Gerar_QR_Code
-> Gerador de QR Code
+# Lazy Loading 
+> Paisagem 
 
 ![Imagem do projeto](./img/img-project.png)
 
