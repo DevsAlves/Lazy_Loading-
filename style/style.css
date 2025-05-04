@@ -33,6 +33,9 @@ body {
 
 .container .text {
     padding: 5rem;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
 
 .container .text h2 {
@@ -52,7 +55,14 @@ body {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #5A7D5A;
+    opacity: 0.3;
+    transition: opacity 0.8s ease-in-out; /* animação suave */
 }
+
+.image-container.active {
+    opacity: 1;
+}
+
 
 .image-container:last-child {
     border: none;
